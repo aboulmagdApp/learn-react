@@ -5,7 +5,7 @@ import App from './components/App/App';
 import { HashRouter} from 'react-router-dom';  
 
 ReactDOM.render(
-  <HashRouter hashType="hashbang" basename="/aboulmagdFaceBook">
+  <HashRouter hashType="slash">
     <App />
   </HashRouter>
     ,
